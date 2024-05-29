@@ -1,1 +1,0 @@
-GET / function toLocaleTimeString() { [native code] }}
