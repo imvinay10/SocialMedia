@@ -39,7 +39,7 @@ try{
         skills:skillsArray,
         refUserId:req.userId,
         createdAt:new Date(),
-        updatedAt: new Date();
+        updatedAt: new Date()
     });
     await newjob.save();
     res.status(201).send("job created successfully");
